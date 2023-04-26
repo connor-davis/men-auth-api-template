@@ -7,7 +7,7 @@ const UserModel = require("../../models/user");
  * @openapi
  * /api/v2/users:
  *   post:
- *     name: Edit
+ *     name: Create
  *     security:
  *       - bearerAuth: []
  *     description: Create a user
